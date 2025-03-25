@@ -1,0 +1,21 @@
+.navbar {
+    margin: 1%;
+    margin-bottom: 0%;
+    
+}
+
+a{
+    font-size: xx-large;
+    margin-right: 40px;
+}
+
+.nav-link{
+    color: yellow;
+}
+.main {
+    margin: 20px;
+    margin-top: 0%;
+    background-color:whitesmoke;
+    text-align: center;
+    font-size: x-large;
+}

@@ -10,7 +10,7 @@ export class CrudService {
   http = inject(HttpClient)
 
 
-  getData(){
+  getUsers(){
     return this.http.get<Iuser[]>(this.base_url);
   }
 }
