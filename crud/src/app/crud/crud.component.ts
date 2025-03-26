@@ -3,7 +3,7 @@ import { Iuser } from '../iuser';
 import { CommonModule } from '@angular/common';
 import { UserService } from '../users-list/user.service';
 import { CrudService } from './crud.service';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 
 @Component({
@@ -13,11 +13,11 @@ import { ReactiveFormsModule } from '@angular/forms';
   styleUrl: './crud.component.css'
 })
 export class CrudComponent implements OnInit {
-
+  
   crud= inject (CrudService);
   router = inject (Router)
 apiData: Iuser[]=[];
-
+user:any;
 ngOnInit(): void {
     this.getAllData();
 }
@@ -31,5 +31,8 @@ addNewUser(){
 this.router.navigateByUrl('adduser');
 }
 
+onUpdate(id:number){
+  this.router.navigate(['updateuser', id] )
+}
 
 }
