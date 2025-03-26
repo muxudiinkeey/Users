@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { UserService } from '../users-list/user.service';
 import { CrudService } from './crud.service';
 import { Router } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-crud',
