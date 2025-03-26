@@ -18,7 +18,7 @@
                 <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
               </div>
               
-              <button type="submit" class="btn btn-primary">Add-User</button>
+              <button type="submit" class="btn btn-info m-2" (click)="addNewUser()">Add new User</button>
           <span class="delete-user">   <button type="submit" class="btn btn-warning ">Delete-User</button></span>
             </form>
           </div>
@@ -34,10 +34,10 @@
           <th>email</th>
         </thead>
         <tbody>
-          @for (user of users ; track user.id){
+          @for (user of apiData ; track user.id){
           <tr>
-            <td>{{ user.id }}</td>
-            <td>{{ user.name }}</td>
+            <td>{{ user.id}}</td>
+            <td>{{ user.name}}</td>
             <td>{{ user.username }}</td>
             <td>{{user.email}}</td>
            }

@@ -12,17 +12,13 @@ import { CommonModule } from '@angular/common';
 })
 export class UsersListComponent implements OnInit{
   
-  userServer = inject (UserService);
-  userService = inject (UserService)
+  
+
   users: Iuser[]=[]
   
   ngOnInit(): void {
-      this.ongetUsers();
+    
   }
-  ongetUsers(){
-    return this.userService.getUsers().subscribe((Iuser)=>{
-   this.users = Iuser;
-    })
-  }
+
 
 }

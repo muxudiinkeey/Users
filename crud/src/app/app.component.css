@@ -1,22 +1,15 @@
-.navbar {
-    margin: 2%;
-    margin-bottom: 0%;
-    
+nav {
+    margin: 25px;
 }
-
 a{
-    font-size: xx-large;
-    margin-right: 40px;
+    font-size:x-large;
+    margin-left: 10px;
+
 }
 
 .nav-link{
     color: yellow;
 }
 .main {
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 0%;
-    background-color:whitesmoke;
-    text-align: center;
-    font-size: x-large;
+    margin: 20px;
 }
