@@ -13,5 +13,13 @@ export class UserService {
  
   getUsers(){
     return this.http.get<Iuser[]>(this.base_url);
+  };
+
+  createUser(){
+    return this.http.post('${this.base_url}/${id}', {})
+  }
+  UpdateUser(id: any){
+    return this.http.put('${this.base_url}/${id}', id)
   }
 }
+

@@ -6,6 +6,9 @@ import { Iuser } from './iuser';
   providedIn: 'root'
 })
 export class CrudService {
+  getUsers() {
+    throw new Error('Method not implemented.');
+  }
   base_url = ('http://localhost:3000/');
   http = inject(HttpClient)
 
