@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './crud.component.css'
 })
 export class CrudComponent {
+users: any;
 
 }

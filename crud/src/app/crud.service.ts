@@ -6,11 +6,8 @@ import { Iuser } from './iuser';
   providedIn: 'root'
 })
 export class CrudService {
-  base_url = ('http://localhost:3000/users');
+  base_url = ('http://localhost:3000/');
   http = inject(HttpClient)
 
 
-  getUsers(){
-    return this.http.get<Iuser[]>(this.base_url);
-  }
 }

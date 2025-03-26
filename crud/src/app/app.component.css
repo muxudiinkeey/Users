@@ -1,5 +1,5 @@
 .navbar {
-    margin: 1%;
+    margin: 2%;
     margin-bottom: 0%;
     
 }
@@ -13,7 +13,8 @@ a{
     color: yellow;
 }
 .main {
-    margin: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-top: 0%;
     background-color:whitesmoke;
     text-align: center;

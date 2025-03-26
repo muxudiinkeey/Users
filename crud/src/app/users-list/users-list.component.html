@@ -1,1 +1,24 @@
-<p>users-list works!</p>
+
+
+<table class="table">
+  <thead>
+    <tr>
+     <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Username</th>
+      <th scope="col">Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for(user of users; track user.id){
+    <tr>
+      <td  style="color: rgb(77, 168, 136); ">{{user.id}}</td>
+      <td>{{user.name}}</td>
+      <td>{{user.username}}</td>
+      <td>{{user.email}}</td>
+      
+    </tr>
+  }
+  </tbody>
+</table>
+
