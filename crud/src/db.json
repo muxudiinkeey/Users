@@ -1,6 +1,5 @@
 {
-
-"users" : [
+  "users": [
     {
       "id": "1",
       "name": "Ali",
@@ -60,6 +59,12 @@
       "name": "muno",
       "username": "Maalin",
       "email": "maalin@ju.com"
+    },
+    {
+      "id": "631f",
+      "name": "Warsame",
+      "username": "Nuur",
+      "email": "nuur@ki.com"
     }
   ]
 }

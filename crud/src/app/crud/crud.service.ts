@@ -16,4 +16,8 @@ getData(){
   return this.http.get<Iuser[]>(this.base_url);
 }
 
+postData(data: Iuser){
+return this.http.post(this.base_url, data);
+}
+
 }
