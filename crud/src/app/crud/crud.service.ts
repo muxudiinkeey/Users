@@ -20,8 +20,6 @@ postData(data: Iuser){
 return this.http.post(this.base_url, data);
 }
 
-getDataById(id: number){
-return this.http.get<Iuser>('${this.base_url}/${id}');
-}
+
 
 }
