@@ -30,12 +30,7 @@
       "username": "Macow",
       "email": "macoe@jhy.com"
     },
-    {
-      "id": "7ca3",
-      "name": "",
-      "username": "",
-      "email": ""
-    },
+ 
     {
       "id": "3695",
       "name": "maymuun",
@@ -47,30 +42,8 @@
       "name": "yuusuf",
       "username": "bashiir",
       "email": "bashiir@opå.com"
-    },
-    {
-      "id": "df18",
-      "name": "Malyuun",
-      "username": "sheekh",
-      "email": "malyuun@ok.com"
-    },
-    {
-      "id": "1cc0",
-      "name": "muno",
-      "username": "Maalin",
-      "email": "maalin@ju.com"
-    },
-    {
-      "id": "631f",
-      "name": "Warsame",
-      "username": "Nuur",
-      "email": "nuur@ki.com"
-    },
-    {
-      "id": "2931",
-      "name": "Muxumud",
-      "username": "Cabdule",
-      "email": "abb@hj.com"
     }
+  
+   
   ]
 }
