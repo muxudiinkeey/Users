@@ -1,6 +1,7 @@
 import { Component ,inject, OnInit} from '@angular/core';
 import { CrudService } from '../crud/crud.service';
 import { ActivatedRoute } from '@angular/router';
+import { Iuser } from '../iuser';
 
 @Component({
   selector: 'app-update-user',
@@ -11,11 +12,16 @@ import { ActivatedRoute } from '@angular/router';
 export class UpdateUserComponent implements OnInit{
 
 
+ 
+  activateRoute= inject (ActivatedRoute)
+  id: string |null = null;
+  users: Iuser[]=[]
   
-ngOnInit(): void {
-
-}
-
+  ngOnInit(){
+    this.activateRoute.queryParamMap.subscribe((params)=>{
+      this.id = params.get('id');
+    })
+  }
 
 
 

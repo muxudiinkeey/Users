@@ -11,7 +11,7 @@ export const routes: Routes = [
     { path: 'crud', component: CrudComponent },
     { path: 'adduser', component: AddUserComponent},
     { path: 'updateuser/:id', component: UpdateUserComponent},
-    { path: 'viewuser', component: ViewUserComponent},
+    { path: 'viewuser/:id', component: ViewUserComponent},
     { path: 'usersList', component: UsersListComponent },
 
     { path: '**', component: PageNotFoundComponent },
